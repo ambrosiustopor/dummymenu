@@ -1,0 +1,30 @@
+{
+  "name": "dummymenu",
+  "description": "Utility to quickly create a dummy navigation menu for e.g. prototyping",
+  "main": "index.js",
+  "authors": [
+    "Ambrosius Topor"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "navigation",
+    "menu",
+    "dummy",
+    "prototyping"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2"
+  },
+  "resolutions": {
+    "jquery": "2"
+  }
+}

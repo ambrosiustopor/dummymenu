@@ -1,0 +1,7 @@
+bower_components
+build
+dist
+coverage
+node_modules
+*.DS_Store
+

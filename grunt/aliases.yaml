@@ -1,0 +1,21 @@
+default:
+  - 'test'
+  - 'markdownlint'
+  - 'clean'
+  - 'browserify'
+  - 'jasmine'
+  - 'uglify'
+  - 'copy'
+
+test:
+  - 'jshint'
+  - 'mocha_istanbul'
+
+ui:
+  - 'jshint'
+  - 'mochaTest'
+  - 'browserify'
+  - 'jasmine'
+
+coverage:
+  - 'mocha_istanbul'
